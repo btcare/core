@@ -7,6 +7,8 @@ services:
           
   db:
     image: redis
+  proxy:
+    image: nginx
 network:
 volume: 
 
