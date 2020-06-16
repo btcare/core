@@ -4,7 +4,6 @@ services:
     image: nginx:latest
     ports:
       port: 5050:5000
-          
   db:
     image: redis
   
